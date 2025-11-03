@@ -31,7 +31,7 @@ export const aboutMe: AboutMe = {
   githubUsername: "janesmith",
   linkedinUsername: "janesmith",
   twitterUsername: "janesmith",
-  blogUrl: "https://",
+  blogUrl: "/blog",
   cvUrl: "https://",
   institutionUrl: "https://www.stanford.edu",
   // altName: "",
