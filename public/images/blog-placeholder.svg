@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6EDE4"/>
+      <stop offset="100%" stop-color="#E0D4C5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad)" rx="24" ry="24"/>
+  <g fill="#5C554B" font-family="Georgia, serif" text-anchor="middle">
+    <text x="400" y="292" font-size="48">Blog Cover</text>
+    <text x="400" y="346" font-size="20" fill="#7B7367">Add your own image in /public/images</text>
+  </g>
+</svg>

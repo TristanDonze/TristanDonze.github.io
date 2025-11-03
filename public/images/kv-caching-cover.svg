@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F0E8"/>
+      <stop offset="100%" stop-color="#D7CCBF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="32" ry="32" fill="url(#bg)"/>
+  <g transform="translate(120,180)">
+    <rect x="0" y="0" width="560" height="260" rx="24" ry="24" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="32" y="48" width="160" height="40" rx="12" ry="12" fill="#E3D8CC"/>
+    <rect x="32" y="108" width="220" height="40" rx="12" ry="12" fill="#E3D8CC"/>
+    <rect x="32" y="168" width="190" height="40" rx="12" ry="12" fill="#E3D8CC"/>
+    <path d="M320 48h160v40H320z" fill="#CDBFAF" opacity="0.8"/>
+    <path d="M320 108h200v40H320z" fill="#CDBFAF" opacity="0.8"/>
+    <path d="M320 168h140v40H320z" fill="#CDBFAF" opacity="0.8"/>
+    <text x="280" y="210" font-family="Georgia, serif" font-size="20" fill="#5C554B">
+      Tokens cached for reuse
+    </text>
+  </g>
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#5C554B">
+    KV Caching Strategies
+  </text>
+</svg>
