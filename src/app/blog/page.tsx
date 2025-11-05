@@ -27,11 +27,10 @@ export default function BlogIndexPage() {
             Blog
           </span>
           <h1 className="font-serif text-4xl md:text-5xl text-zinc-900 mt-6">
-            Writing & Updates
+            Writings
           </h1>
           <p className="font-serif text-sm text-zinc-600 mt-4 max-w-2xl">
-            Explore articles, project updates, and research notes, all presented
-            with the same care as the rest of the portfolio.
+            Welcome to my blog! Here, I’ll explore research papers that catch my attention, share the projects I’m working on, and explain AI concepts and techniques in a way that’s accessible and engaging. This space is mainly a way for me to deepen my own understanding, but I hope you’ll find something valuable here too!
           </p>
         </header>
         <div className="space-y-16">
@@ -86,7 +85,7 @@ export default function BlogIndexPage() {
           ))}
           {posts.length === 0 && (
             <p className="font-serif text-sm text-zinc-600">
-              Posts will appear here once published.
+            No blog posts available at the moment. Please check back later!
             </p>
           )}
         </div>
