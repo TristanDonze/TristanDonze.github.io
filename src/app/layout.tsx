@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Serif, PT_Serif } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { aboutMe } from "@/data/aboutme";
 import { customMetadata } from "@/data/title-description";
 import "katex/dist/katex.min.css";
